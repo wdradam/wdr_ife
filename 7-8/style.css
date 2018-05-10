@@ -1,0 +1,139 @@
+/*
+* @Author: u5950
+* @Date:   2018-05-08 10:33:51
+* @Last Modified by:   u5950
+* @Last Modified time: 2018-05-10 15:55:49
+*/
+*{
+	padding: 0;
+	margin: 0;  
+}
+.banner {
+	width: 100%;
+	height: 70px;
+	background-color: black;
+}
+.banner-left {
+	color: white;
+	font-size: 50px;
+	margin-left: 10px;
+}
+.banner-right {
+	margin-left: 650px;
+	margin-top: 10px;
+}
+.banner a {
+     color: white;
+}
+.up {
+	width: 100%;
+	height: 300px;
+	background-color: rgb(0,238,0);
+}
+ul {
+	list-style-type: none;
+	height: 60px;
+	width: 960px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+li {
+	 float: left;
+	 width: 100px;
+	 border:1px solid gray;
+	 border-top-left-radius: 10px;
+	 border-top-right-radius: 10px;
+	 background: rgb(238,229,222);
+	 text-align: center;
+}
+ .li-active{
+	border-bottom: none;
+	background: white;
+}
+li a{
+    text-decoration: none;
+    
+    line-height: 3;
+}
+.content {
+	width: 960px;
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto; 
+}
+.content-up {
+     flex: 1;
+     display: flex;
+     padding: 10px;
+}
+.content-mid {
+     flex: 1;
+     display: flex;
+     padding: 10px;
+}
+.content-bottom {
+     flex: 1;
+     display: flex;
+     padding: 10px;
+}
+.content-1 {
+    flex: 1;
+    border:1px solid gray;
+    margin:10px; 
+
+}
+.content-2 {
+     flex: 1;
+     border:1px solid gray;
+     margin:10px;
+}
+
+.content-3 {
+     flex: 1;
+     border:1px solid gray;
+     margin:10px;
+}
+.content-4 {
+     flex: 1;
+     border:1px solid gray;
+     margin:10px;
+}
+.content-5 {
+     flex: 1;
+     border:1px solid gray;
+     margin:10px;
+}
+.content-6 {
+     flex: 1;
+     border:1px solid gray;
+     margin:10px;
+}
+.content-7 {
+     flex: 1;
+     border:1px solid gray;
+     margin:10px;
+}
+.content-8 {
+     flex: 1;
+     border:1px solid gray;
+     margin:10px;
+}
+.content-9 {
+     flex: 1;
+     border:1px solid gray;
+     margin:10px;
+}
+.content-10 {
+     flex: 1;
+     border:1px solid gray;
+     margin:10px;
+}
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: rgb(130,130,130);
+	text-align: center;
+	color: white;
+}
+
